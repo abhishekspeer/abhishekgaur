@@ -36,26 +36,9 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-end">
-							<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-							<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
 							<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Pages</a>
-								<ul class="dropdown-menu">
-                                    <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="portfolio-details.html">Portfolio Details</a></li>
-								</ul>
-							</li>
-							<li class="nav-item submenu dropdown active">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-								</ul>
-							</li>
+							<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
 							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 						</ul>
 					</div>
@@ -64,6 +47,7 @@
 		</div>
 	</header>
 	<!--================ End Header Area =================-->
+
 
     <!--================ Start Banner Area =================-->
     <section class="banner_area">
@@ -97,7 +81,7 @@
                             <div class="blog_info text-right">
                                 <ul class="blog_meta list">
                                     <li><a href="#">abhishekspeer<i class="lnr lnr-user"></i></a></li>
-                                    <li><a href="#">25 Aug, 2019<i class="lnr lnr-calendar-full"></i></a></li>
+                                    <li><a href="#">09 April, 2020<i class="lnr lnr-calendar-full"></i></a></li>
                                     <li><a href="#">Pilani, India<i class="lnr lnr-map-marker"></i></a></li>
                                 </ul>
                             </div>
@@ -105,13 +89,13 @@
                         <div class="col-lg-9 col-md-9 blog_details">
                             <h2>Google Summer of Code 2019 with SPDX</h2>
                             <p class="excert">
+                                Last summer, I was selected as one of the 1000 students worldwide to work as a student developer for the 15th edition of Google Summer of Code, a global program focused on introducing students to open source software development. As a part of this program, I worked on a 3 month programming project with Software Package Data Exchange (SPDX), a part of Linux Foundation Open Compliance Program during summer break from university.
+                            </p>
+                            <p class="excert">
                                 Software Package Data Exchange (SPDX) is a set of standards for communicating the components, licenses and copyrights associated with software. These software are accompanied with special files that hold certain meta information: authors, copyrights, licenses, etc. At present, these files come in two major formats: Tag/Value and RDF. Parsing tools are available for these formats in multiple programming languages like Java and Python.
                             </p>
-                            <p>
+                            <p class="excert">
                                 Currently, unlike other tools in Java and Python, the tools-golang only handles SPDX files in tag-value format. As RDF format is also officially defined by the SPDX specification, the primary objective of this project is to add support for RDF format, ensuring that tools-golang are also capable of reading and writing SPDX files in RDF format. This main objective of this project was to develop a parser library to support golang tools when handling SPDX documents in RDF format.
-                            </p>
-                            <p>
-                               
                             </p>
                         </div>
                         <div class="col-lg-12">
@@ -143,16 +127,19 @@
                                     <img class="img-fluid" src="img/blog/main-blog/gsoc-post2.jpg" alt="">
                                 </div>	
                                 <div class="col-lg-12 mt-25">
-                                    <p>
+                                    <p class="excert">
+                                        During this period, I learned about the use of SPDX file format and its use to document information on more than 300 software licenses (like MIT, Apache-2.0, GPL-3.0 etc.) under which a given piece of computer software is distributed. I also developed a module written in golang to add support for parsing and writing SPDX documents in RDF format. You can learn more about my GSoC ‘19 Project <a href="https://summerofcode.withgoogle.com/archive/2019/projects/5162336644497408/">here</a>. 
+                                    </p>
+                                    <p class="excert">
                                     Google Summer of Code 2019 was without a doubt, the most effective learning experience in terms of software development till date. I gained substantial knowledge and experience in open source software development and significantly enhanced my technical skills along the way.
 
                                     I'm extremely thankful to my mentors at SPDX and the community for giving me this opportunity.
 
 
                                     </p>
-                                    <p>
+                                    <h5>
                                         For the love of Open Source! ❤
-                                    </p>											
+                                    </h5>											
                                 </div>									
                             </div>
                         </div>
@@ -161,7 +148,7 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
                                 <div class="arrow">
-                                    <a href="#"><p>Back to Blogs</p></a>
+                                    <a href="blog.html"><p>Back to Blogs</p></a>
                                 </div>
                             </div>
                         
@@ -169,17 +156,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="blog_right_sidebar">
-                        <!-- <aside class="single_sidebar_widget search_widget">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search Posts">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-default" type="button"><i class="lnr lnr-magnifier"></i></button>
-                                </span>
-                            </div>
-                            input-group
-                            <div class="br"></div>
-                        </aside> --> 
+                    <div class="blog_right_sidebar">                  
                         <aside class="single_sidebar_widget author_widget">
                             <img class="author_img rounded-circle" src="img/blog/author.png" alt="">
                             <h4>Abhishek Gaur</h4>
@@ -202,7 +179,7 @@
                                 <strong>Interested in learning more?</strong>
                             </p>
                             <p>
-                            Get notified to get updates on latest blogs and other related stuff!
+                            Subscribe to get updates on latest blogs and other related stuff!
                             </p>
                             <div class="form-group d-flex flex-row">
                                 <div class="input-group">
@@ -211,7 +188,7 @@
                                     </div>
                                     <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email'">
                                 </div>
-                                <a href="#" class="bbtns">Subcribe</a>
+                                <a href="#" class="bbtns">Subscribe</a>
                             </div>	
                             <p class="text-bottom">You can unsubscribe at any time</p>	
                             <div class="br"></div>													
