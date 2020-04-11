@@ -3297,3 +3297,17 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+/* Brand logo
+=============================================================================================*/
+@media (max-width: 991px) {
+  .navbrandlogo1 {
+    display: none; } 
+  }
+
+  @media (min-width: 991px) {
+  .navbrandlogo2 {
+    display: none;
+  }
+
+  }
