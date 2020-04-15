@@ -356,7 +356,7 @@ button:focus {
           height: auto; } }
       @media (max-width: 991px) {
         .home_banner_area .banner_inner .home_right_img {
-          display: none; } }
+          display: inline; } }
     .home_banner_area .banner_inner .col-lg-7 {
       vertical-align: middle;
       align-self: center; }
@@ -3073,7 +3073,7 @@ h6 {
 
   .home_banner_area .banner_inner {
     min-height: 300px;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 50px; }
 
   .home_banner_area .banner_inner .banner_content {
