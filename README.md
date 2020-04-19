@@ -23,7 +23,7 @@ All kinds of contributions to improve the source are welcome! You can initiate a
 
 ## License
 
-This project is currently licensed under the Do [WTFPL](https://github.com/abhishekspeer/abhishekspeer.github.io/blob/master/LICENSE) License.
+This project is currently licensed under the Do What The F\*ck You Want To Public License ([WTFPL](https://github.com/abhishekspeer/abhishekspeer.github.io/blob/master/LICENSE)).
 
 ## Acknowledgments
 Design based on a template by [Colorlib](https://colorlib.com)
