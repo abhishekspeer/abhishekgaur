@@ -18,12 +18,12 @@ Abhishek is currently a junior undergraduate at the Birla Institute of Technolog
 ![](https://github.com/abhishekspeer/abhishekspeer.github.io/blob/master/mock.png)
 
 ## Contributions
-All kinds of contributions to improve the source are welcome! You can initiate a patch [here](https://github.com/abhishekspeer/abhishekspeer.github.io/pulls).
+All kinds of contributions to improve the source are welcome! You can initiate a patch [here](https://github.com/abhishekspeer/abhishekgaur/pulls).
 
 
 ## License
 
-This project is currently licensed under the Do What The F\*ck You Want To Public License ([WTFPL](https://github.com/abhishekspeer/abhishekspeer.github.io/blob/master/LICENSE)).
+This project is currently licensed under the Do What The F\*ck You Want To Public License ([WTFPL](https://github.com/abhishekspeer/abhishekgaur/blob/master/LICENSE)).
 
 ## Acknowledgments
 Design based on a template by [Colorlib](https://colorlib.com)
